@@ -1,0 +1,12 @@
+{% extends "layouts/main.njk" %}
+
+{% block pageTitle %}
+  Start your space travel application
+{% endblock %}
+
+{% block content %}
+  <h1 class="govuk-heading-xl">Start your space travel application</h1>
+  <form action="/choose-destination" method="get">
+    <button class="govuk-button">Continue</button>
+  </form>
+{% endblock %}
