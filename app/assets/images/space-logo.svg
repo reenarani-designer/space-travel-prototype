@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1274 130" width="1274" height="130">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 135px;fill: #ffffff;font-weight: 900;font-family: "Roboto-Black", "Roboto" } 
+	</style>
+	<text id="Space Travel Service" style="transform: matrix(1,0,0,1,-4,102)" >
+		<tspan x="0" y="0" class="t0">Space Travel Service
+</tspan>
+	</text>
+</svg>

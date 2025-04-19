@@ -1,0 +1,28 @@
+{% extends "layouts/main.njk" %}
+
+{% block pageTitle %}
+  Check your answers
+{% endblock %}
+
+{% block content %}
+  <h1 class="govuk-heading-l">Check your answers before submitting</h1>
+
+  <dl class="govuk-summary-list">
+    <div class="govuk-summary-list__row">
+      <dt class="govuk-summary-list__key">Destination</dt>
+      <dd class="govuk-summary-list__value">{{ data['destination'] }}</dd>
+    </div>
+    <div class="govuk-summary-list__row">
+      <dt class="govuk-summary-list__key">Name</dt>
+      <dd class="govuk-summary-list__value">{{ data['name'] }}</dd>
+    </div>
+    <div class="govuk-summary-list__row">
+      <dt class="govuk-summary-list__key">Address</dt>
+      <dd class="govuk-summary-list__value">{{ data['address'] }}</dd>
+    </div>
+  </dl>
+
+  <form action="/confirmation" method="post">
+    <button class="govuk-button" type="submit">Confirm and send</button>
+  </form>
+{% endblock %}
